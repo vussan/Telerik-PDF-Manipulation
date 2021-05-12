@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Magick.NET-Q16-AnyCPU" Version="7.24.0" />
+    <PackageReference Include="Telerik.Documents.Core.Trial" Version="2021.1.322" />
+    <PackageReference Include="Telerik.Documents.Fixed.Trial" Version="2021.1.322" />
+    <PackageReference Include="Telerik.Documents.Flow.FormatProviders.Pdf.Trial" Version="2021.1.322" />
+    <PackageReference Include="Telerik.Documents.Flow.Trial" Version="2021.1.322" />
+    <PackageReference Include="Telerik.Documents.ImageUtils.Trial" Version="2021.1.322" />
+  </ItemGroup>
+
+</Project>

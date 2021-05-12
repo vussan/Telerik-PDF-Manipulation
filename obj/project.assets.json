@@ -1,0 +1,571 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "JpegLibrary/0.3.26": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.0/JpegLibrary.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/JpegLibrary.dll": {}
+        }
+      },
+      "Magick.NET-Q16-AnyCPU/7.24.0": {
+        "type": "package",
+        "dependencies": {
+          "Magick.NET.Core": "7.0.0"
+        },
+        "compile": {
+          "lib/netstandard20/Magick.NET-Q16-AnyCPU.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard20/Magick.NET-Q16-AnyCPU.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/linux-musl-x64/native/Magick.Native-Q16-x64.dll.so": {
+            "assetType": "native",
+            "rid": "linux-musl-x64"
+          },
+          "runtimes/linux-musl-x64/native/Notice.txt": {
+            "assetType": "native",
+            "rid": "linux-musl-x64"
+          },
+          "runtimes/linux-x64/native/Magick.Native-Q16-x64.dll.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/Notice.txt": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/osx-x64/native/Magick.Native-Q16-x64.dll.dylib": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/native/Notice.txt": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/win-x64/native/Magick.Native-Q16-x64.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/Notice.txt": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x86/native/Magick.Native-Q16-x86.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/native/Notice.txt": {
+            "assetType": "native",
+            "rid": "win-x86"
+          }
+        }
+      },
+      "Magick.NET.Core/7.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard20/Magick.NET.Core.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard20/Magick.NET.Core.dll": {}
+        }
+      },
+      "SixLabors.ImageSharp/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/SixLabors.ImageSharp.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/SixLabors.ImageSharp.dll": {}
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/4.7.1": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+        }
+      },
+      "Telerik.Documents.Core.Trial/2021.1.322": {
+        "type": "package",
+        "dependencies": {
+          "Telerik.Zip.Trial": "[2021.1.322]"
+        },
+        "compile": {
+          "lib/netstandard2.0/Telerik.Documents.Core.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Telerik.Documents.Core.dll": {}
+        }
+      },
+      "Telerik.Documents.Fixed.Trial/2021.1.322": {
+        "type": "package",
+        "dependencies": {
+          "Telerik.Documents.Core.Trial": "[2021.1.322]",
+          "Telerik.Zip.Trial": "[2021.1.322]"
+        },
+        "compile": {
+          "lib/netstandard2.0/Telerik.Documents.Fixed.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Telerik.Documents.Fixed.dll": {}
+        }
+      },
+      "Telerik.Documents.Flow.FormatProviders.Pdf.Trial/2021.1.322": {
+        "type": "package",
+        "dependencies": {
+          "Telerik.Documents.Core.Trial": "[2021.1.322]",
+          "Telerik.Documents.Fixed.Trial": "[2021.1.322]",
+          "Telerik.Documents.Flow.Trial": "[2021.1.322]"
+        },
+        "compile": {
+          "lib/netstandard2.0/Telerik.Documents.Flow.FormatProviders.Pdf.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Telerik.Documents.Flow.FormatProviders.Pdf.dll": {}
+        }
+      },
+      "Telerik.Documents.Flow.Trial/2021.1.322": {
+        "type": "package",
+        "dependencies": {
+          "Telerik.Documents.Core.Trial": "[2021.1.322]"
+        },
+        "compile": {
+          "lib/netstandard2.0/Telerik.Documents.Flow.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Telerik.Documents.Flow.dll": {}
+        }
+      },
+      "Telerik.Documents.ImageUtils.Trial/2021.1.322": {
+        "type": "package",
+        "dependencies": {
+          "SixLabors.ImageSharp": "1.0.0",
+          "Telerik.Documents.Fixed.Trial": "[2021.1.322]",
+          "TiffLibrary.ImageSharpAdapter": "0.5.252"
+        },
+        "compile": {
+          "lib/netstandard2.0/Telerik.Documents.ImageUtils.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Telerik.Documents.ImageUtils.dll": {}
+        }
+      },
+      "Telerik.Zip.Trial/2021.1.322": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Telerik.Zip.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Telerik.Zip.dll": {}
+        }
+      },
+      "TiffLibrary/0.5.252": {
+        "type": "package",
+        "dependencies": {
+          "JpegLibrary": "0.3.26"
+        },
+        "compile": {
+          "lib/netcoreapp3.0/TiffLibrary.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/TiffLibrary.dll": {}
+        }
+      },
+      "TiffLibrary.ImageSharpAdapter/0.5.252": {
+        "type": "package",
+        "dependencies": {
+          "SixLabors.ImageSharp": "1.0.0",
+          "System.Runtime.CompilerServices.Unsafe": "4.7.1",
+          "TiffLibrary": "0.5.252"
+        },
+        "compile": {
+          "lib/netcoreapp2.1/TiffLibrary.ImageSharpAdapter.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/TiffLibrary.ImageSharpAdapter.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "JpegLibrary/0.3.26": {
+      "sha512": "oARtI6d4Gb0i/0hNt163iBLG83bWsL0eSiDNQ87JVwmv0qdH41eDeTlTvluGm3cTCT6XgkU7ULGhkIcbeeGlGQ==",
+      "type": "package",
+      "path": "jpeglibrary/0.3.26",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "jpeglibrary.0.3.26.nupkg.sha512",
+        "jpeglibrary.nuspec",
+        "lib/net45/JpegLibrary.dll",
+        "lib/net45/JpegLibrary.xml",
+        "lib/netcoreapp2.1/JpegLibrary.dll",
+        "lib/netcoreapp2.1/JpegLibrary.xml",
+        "lib/netcoreapp3.0/JpegLibrary.dll",
+        "lib/netcoreapp3.0/JpegLibrary.xml",
+        "lib/netstandard1.1/JpegLibrary.dll",
+        "lib/netstandard1.1/JpegLibrary.xml",
+        "lib/netstandard2.0/JpegLibrary.dll",
+        "lib/netstandard2.0/JpegLibrary.xml",
+        "lib/netstandard2.1/JpegLibrary.dll",
+        "lib/netstandard2.1/JpegLibrary.xml"
+      ]
+    },
+    "Magick.NET-Q16-AnyCPU/7.24.0": {
+      "sha512": "Vy4wo264PQCzl71mYTUygKpP8Va+MBbLBC6Kr93zmDdIObvoVuvZ9G4tPKoTrp3NQvMJnX4Cc7DQn/JP51+0Hw==",
+      "type": "package",
+      "path": "magick.net-q16-anycpu/7.24.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Magick.NET.icon.png",
+        "lib/net20/Magick.NET-Q16-AnyCPU.dll",
+        "lib/net20/Magick.NET-Q16-AnyCPU.xml",
+        "lib/net40/Magick.NET-Q16-AnyCPU.dll",
+        "lib/net40/Magick.NET-Q16-AnyCPU.xml",
+        "lib/netstandard20/Magick.NET-Q16-AnyCPU.dll",
+        "lib/netstandard20/Magick.NET-Q16-AnyCPU.xml",
+        "magick.net-q16-anycpu.7.24.0.nupkg.sha512",
+        "magick.net-q16-anycpu.nuspec",
+        "runtimes/linux-musl-x64/native/Magick.Native-Q16-x64.dll.so",
+        "runtimes/linux-musl-x64/native/Notice.txt",
+        "runtimes/linux-x64/native/Magick.Native-Q16-x64.dll.so",
+        "runtimes/linux-x64/native/Notice.txt",
+        "runtimes/osx-x64/native/Magick.Native-Q16-x64.dll.dylib",
+        "runtimes/osx-x64/native/Notice.txt",
+        "runtimes/win-x64/native/Magick.Native-Q16-x64.dll",
+        "runtimes/win-x64/native/Notice.txt",
+        "runtimes/win-x86/native/Magick.Native-Q16-x86.dll",
+        "runtimes/win-x86/native/Notice.txt"
+      ]
+    },
+    "Magick.NET.Core/7.0.0": {
+      "sha512": "SZAPKrb+583TcUPvd2xk+TNfC3kmvrN2lH/zJDZtiLxQm9dx0QLe9mTztCEx5Pae2u8IRkrML1KVqCBy+vPQAQ==",
+      "type": "package",
+      "path": "magick.net.core/7.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Copyright.txt",
+        "Magick.NET.icon.png",
+        "lib/net20/Magick.NET.Core.dll",
+        "lib/net20/Magick.NET.Core.xml",
+        "lib/net40/Magick.NET.Core.dll",
+        "lib/net40/Magick.NET.Core.xml",
+        "lib/netstandard20/Magick.NET.Core.dll",
+        "lib/netstandard20/Magick.NET.Core.xml",
+        "magick.net.core.7.0.0.nupkg.sha512",
+        "magick.net.core.nuspec"
+      ]
+    },
+    "SixLabors.ImageSharp/1.0.0": {
+      "sha512": "8amvsk8NXnCxZV0lvJppAZJknViWgBOO/2V59IGR6DVoD13mSmG+/Z9eg5IwrHQuRHp5RD9lfXBXDZyk8rTKDg==",
+      "type": "package",
+      "path": "sixlabors.imagesharp/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net472/SixLabors.ImageSharp.dll",
+        "lib/net472/SixLabors.ImageSharp.xml",
+        "lib/netcoreapp2.1/SixLabors.ImageSharp.dll",
+        "lib/netcoreapp2.1/SixLabors.ImageSharp.xml",
+        "lib/netcoreapp3.1/SixLabors.ImageSharp.dll",
+        "lib/netcoreapp3.1/SixLabors.ImageSharp.xml",
+        "lib/netstandard1.3/SixLabors.ImageSharp.dll",
+        "lib/netstandard1.3/SixLabors.ImageSharp.xml",
+        "lib/netstandard2.0/SixLabors.ImageSharp.dll",
+        "lib/netstandard2.0/SixLabors.ImageSharp.xml",
+        "lib/netstandard2.1/SixLabors.ImageSharp.dll",
+        "lib/netstandard2.1/SixLabors.ImageSharp.xml",
+        "sixlabors.imagesharp.1.0.0.nupkg.sha512",
+        "sixlabors.imagesharp.128.png",
+        "sixlabors.imagesharp.nuspec"
+      ]
+    },
+    "System.Runtime.CompilerServices.Unsafe/4.7.1": {
+      "sha512": "zOHkQmzPCn5zm/BH+cxC1XbUS3P4Yoi3xzW7eRgVpDR2tPGSzyMZ17Ig1iRkfJuY0nhxkQQde8pgePNiA7z7TQ==",
+      "type": "package",
+      "path": "system.runtime.compilerservices.unsafe/4.7.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/net461/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "ref/net461/System.Runtime.CompilerServices.Unsafe.dll",
+        "ref/net461/System.Runtime.CompilerServices.Unsafe.xml",
+        "ref/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "ref/netstandard1.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "system.runtime.compilerservices.unsafe.4.7.1.nupkg.sha512",
+        "system.runtime.compilerservices.unsafe.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "Telerik.Documents.Core.Trial/2021.1.322": {
+      "sha512": "wFMxdQMY4Wz0btZX/O02iqfWxU3sFdX0CiNyQRb9+i0p27u2pb4Q10c2dC04lcgGn64OfxkfbE1OSd2/33WpbQ==",
+      "type": "package",
+      "path": "telerik.documents.core.trial/2021.1.322",
+      "files": [
+        ".nupkg.metadata",
+        "LicenseAgreements/EULA.txt",
+        "LicenseAgreements/ThirdParty/AutoIt.txt",
+        "LicenseAgreements/ThirdParty/Progress Telerik UI for Silverlight - notices.txt",
+        "LicenseAgreements/ThirdParty/Progress Telerik UI for WPF - notices.txt",
+        "LicenseAgreements/ThirdParty/SpecFlow.txt",
+        "images/tdp.png",
+        "lib/netstandard2.0/Telerik.Documents.Core.dll",
+        "lib/netstandard2.0/Telerik.Documents.Core.xml",
+        "telerik.documents.core.trial.2021.1.322.nupkg.sha512",
+        "telerik.documents.core.trial.nuspec"
+      ]
+    },
+    "Telerik.Documents.Fixed.Trial/2021.1.322": {
+      "sha512": "pUTip7gdB5NL23oSzvDfw1km0iJWj3kXqPNHGYvlXTA4WE5b6/eYqSstW4voLzYEYby+eELg4cEQV5tneJnOow==",
+      "type": "package",
+      "path": "telerik.documents.fixed.trial/2021.1.322",
+      "files": [
+        ".nupkg.metadata",
+        "LicenseAgreements/EULA.txt",
+        "LicenseAgreements/ThirdParty/AutoIt.txt",
+        "LicenseAgreements/ThirdParty/Progress Telerik UI for Silverlight - notices.txt",
+        "LicenseAgreements/ThirdParty/Progress Telerik UI for WPF - notices.txt",
+        "LicenseAgreements/ThirdParty/SpecFlow.txt",
+        "images/tdp.png",
+        "lib/netstandard2.0/Telerik.Documents.Fixed.dll",
+        "lib/netstandard2.0/Telerik.Documents.Fixed.xml",
+        "telerik.documents.fixed.trial.2021.1.322.nupkg.sha512",
+        "telerik.documents.fixed.trial.nuspec"
+      ]
+    },
+    "Telerik.Documents.Flow.FormatProviders.Pdf.Trial/2021.1.322": {
+      "sha512": "0/bq1uAPsoa0iyDljWGvnPDmDsVDdiCz94SgCbcWkGxVJhaixPCo5yan+CB4WJxb2dBJw/Q1AbTZDCA7FVD5Bg==",
+      "type": "package",
+      "path": "telerik.documents.flow.formatproviders.pdf.trial/2021.1.322",
+      "files": [
+        ".nupkg.metadata",
+        "LicenseAgreements/EULA.txt",
+        "LicenseAgreements/ThirdParty/AutoIt.txt",
+        "LicenseAgreements/ThirdParty/Progress Telerik UI for Silverlight - notices.txt",
+        "LicenseAgreements/ThirdParty/Progress Telerik UI for WPF - notices.txt",
+        "LicenseAgreements/ThirdParty/SpecFlow.txt",
+        "images/tdp.png",
+        "lib/netstandard2.0/Telerik.Documents.Flow.FormatProviders.Pdf.dll",
+        "lib/netstandard2.0/Telerik.Documents.Flow.FormatProviders.Pdf.xml",
+        "telerik.documents.flow.formatproviders.pdf.trial.2021.1.322.nupkg.sha512",
+        "telerik.documents.flow.formatproviders.pdf.trial.nuspec"
+      ]
+    },
+    "Telerik.Documents.Flow.Trial/2021.1.322": {
+      "sha512": "zfDg/YC6Ou1hZIUrzJkw84LpAzMl5IFLqTxA8jRP5s6Ahq2U+kxq8qbnyMX2Iu44Z9cKLz9EfadqwItidHft+Q==",
+      "type": "package",
+      "path": "telerik.documents.flow.trial/2021.1.322",
+      "files": [
+        ".nupkg.metadata",
+        "LicenseAgreements/EULA.txt",
+        "LicenseAgreements/ThirdParty/AutoIt.txt",
+        "LicenseAgreements/ThirdParty/Progress Telerik UI for Silverlight - notices.txt",
+        "LicenseAgreements/ThirdParty/Progress Telerik UI for WPF - notices.txt",
+        "LicenseAgreements/ThirdParty/SpecFlow.txt",
+        "images/tdp.png",
+        "lib/netstandard2.0/Telerik.Documents.Flow.dll",
+        "lib/netstandard2.0/Telerik.Documents.Flow.xml",
+        "telerik.documents.flow.trial.2021.1.322.nupkg.sha512",
+        "telerik.documents.flow.trial.nuspec"
+      ]
+    },
+    "Telerik.Documents.ImageUtils.Trial/2021.1.322": {
+      "sha512": "bTAZGmsGbtBZGUzHv1iaIO8xeaBo99+6A7Q/Xg3HNaPBBSCtl8KNflykPknY9UiHLMxaBB0/bNMDTizJD/U5Zw==",
+      "type": "package",
+      "path": "telerik.documents.imageutils.trial/2021.1.322",
+      "files": [
+        ".nupkg.metadata",
+        "LicenseAgreements/EULA.txt",
+        "LicenseAgreements/ThirdParty/AutoIt.txt",
+        "LicenseAgreements/ThirdParty/Progress Telerik UI for Silverlight - notices.txt",
+        "LicenseAgreements/ThirdParty/Progress Telerik UI for WPF - notices.txt",
+        "LicenseAgreements/ThirdParty/SpecFlow.txt",
+        "images/tdp.png",
+        "lib/netstandard2.0/Telerik.Documents.ImageUtils.dll",
+        "lib/netstandard2.0/Telerik.Documents.ImageUtils.xml",
+        "telerik.documents.imageutils.trial.2021.1.322.nupkg.sha512",
+        "telerik.documents.imageutils.trial.nuspec"
+      ]
+    },
+    "Telerik.Zip.Trial/2021.1.322": {
+      "sha512": "eKx9QQd/pn+BkcSZOz51Sov7f2dRaaiJBKbqOH+g4O/+qqEICZoIvq++jbQZLb9guyUVf+x2R6y6Ub8VPT9zug==",
+      "type": "package",
+      "path": "telerik.zip.trial/2021.1.322",
+      "files": [
+        ".nupkg.metadata",
+        "LicenseAgreements/EULA.txt",
+        "LicenseAgreements/ThirdParty/AutoIt.txt",
+        "LicenseAgreements/ThirdParty/Progress Telerik UI for Silverlight - notices.txt",
+        "LicenseAgreements/ThirdParty/Progress Telerik UI for WPF - notices.txt",
+        "LicenseAgreements/ThirdParty/SpecFlow.txt",
+        "images/tdp.png",
+        "lib/netstandard2.0/Telerik.Zip.dll",
+        "lib/netstandard2.0/Telerik.Zip.xml",
+        "telerik.zip.trial.2021.1.322.nupkg.sha512",
+        "telerik.zip.trial.nuspec"
+      ]
+    },
+    "TiffLibrary/0.5.252": {
+      "sha512": "zTMhYzXKaQ8ipO9vbykLPVrbLgsb9YbGvzBeh7ml0MR3IVxcgYVUHA3qkuw3mnDOWR7ln0tUPiUhCZru6dJS3A==",
+      "type": "package",
+      "path": "tifflibrary/0.5.252",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net46/TiffLibrary.dll",
+        "lib/net46/TiffLibrary.xml",
+        "lib/net472/TiffLibrary.dll",
+        "lib/net472/TiffLibrary.xml",
+        "lib/netcoreapp2.1/TiffLibrary.dll",
+        "lib/netcoreapp2.1/TiffLibrary.xml",
+        "lib/netcoreapp3.0/TiffLibrary.dll",
+        "lib/netcoreapp3.0/TiffLibrary.xml",
+        "lib/netstandard1.3/TiffLibrary.dll",
+        "lib/netstandard1.3/TiffLibrary.xml",
+        "lib/netstandard2.0/TiffLibrary.dll",
+        "lib/netstandard2.0/TiffLibrary.xml",
+        "lib/netstandard2.1/TiffLibrary.dll",
+        "lib/netstandard2.1/TiffLibrary.xml",
+        "tifflibrary.0.5.252.nupkg.sha512",
+        "tifflibrary.nuspec"
+      ]
+    },
+    "TiffLibrary.ImageSharpAdapter/0.5.252": {
+      "sha512": "fj2wSj2KPhXxCCRBtQdrC7vEeBnsO/j2xBsaN8LE04zscKMGV9V0zGrHAUqbVqGero/j5dhVimvAE4jqdwQkjQ==",
+      "type": "package",
+      "path": "tifflibrary.imagesharpadapter/0.5.252",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net472/TiffLibrary.ImageSharpAdapter.dll",
+        "lib/net472/TiffLibrary.ImageSharpAdapter.xml",
+        "lib/netcoreapp2.1/TiffLibrary.ImageSharpAdapter.dll",
+        "lib/netcoreapp2.1/TiffLibrary.ImageSharpAdapter.xml",
+        "lib/netstandard1.3/TiffLibrary.ImageSharpAdapter.dll",
+        "lib/netstandard1.3/TiffLibrary.ImageSharpAdapter.xml",
+        "lib/netstandard2.0/TiffLibrary.ImageSharpAdapter.dll",
+        "lib/netstandard2.0/TiffLibrary.ImageSharpAdapter.xml",
+        "lib/netstandard2.1/TiffLibrary.ImageSharpAdapter.dll",
+        "lib/netstandard2.1/TiffLibrary.ImageSharpAdapter.xml",
+        "tifflibrary.imagesharpadapter.0.5.252.nupkg.sha512",
+        "tifflibrary.imagesharpadapter.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "Magick.NET-Q16-AnyCPU >= 7.24.0",
+      "Telerik.Documents.Core.Trial >= 2021.1.322",
+      "Telerik.Documents.Fixed.Trial >= 2021.1.322",
+      "Telerik.Documents.Flow.FormatProviders.Pdf.Trial >= 2021.1.322",
+      "Telerik.Documents.Flow.Trial >= 2021.1.322",
+      "Telerik.Documents.ImageUtils.Trial >= 2021.1.322"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\deepe\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\deepe\\Desktop\\PdfEditor\\Telerik\\Telerik.csproj",
+      "projectName": "Telerik",
+      "projectPath": "C:\\Users\\deepe\\Desktop\\PdfEditor\\Telerik\\Telerik.csproj",
+      "packagesPath": "C:\\Users\\deepe\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\deepe\\Desktop\\PdfEditor\\Telerik\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\deepe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://nuget.telerik.com/nuget": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "dependencies": {
+          "Magick.NET-Q16-AnyCPU": {
+            "target": "Package",
+            "version": "[7.24.0, )"
+          },
+          "Telerik.Documents.Core.Trial": {
+            "target": "Package",
+            "version": "[2021.1.322, )"
+          },
+          "Telerik.Documents.Fixed.Trial": {
+            "target": "Package",
+            "version": "[2021.1.322, )"
+          },
+          "Telerik.Documents.Flow.FormatProviders.Pdf.Trial": {
+            "target": "Package",
+            "version": "[2021.1.322, )"
+          },
+          "Telerik.Documents.Flow.Trial": {
+            "target": "Package",
+            "version": "[2021.1.322, )"
+          },
+          "Telerik.Documents.ImageUtils.Trial": {
+            "target": "Package",
+            "version": "[2021.1.322, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

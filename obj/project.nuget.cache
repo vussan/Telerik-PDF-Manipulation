@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "dgSpecHash": "TqcsspxQ+njVAg8n+HGNRf2Zf6rnJ39m5WMnZn8C1O378JPQDio0+SravHbVQ5XEbyolsFaV3vIXAMkDvBCTOA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\deepe\\Desktop\\PdfEditor\\Telerik\\Telerik.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\deepe\\.nuget\\packages\\jpeglibrary\\0.3.26\\jpeglibrary.0.3.26.nupkg.sha512",
+    "C:\\Users\\deepe\\.nuget\\packages\\magick.net-q16-anycpu\\7.24.0\\magick.net-q16-anycpu.7.24.0.nupkg.sha512",
+    "C:\\Users\\deepe\\.nuget\\packages\\magick.net.core\\7.0.0\\magick.net.core.7.0.0.nupkg.sha512",
+    "C:\\Users\\deepe\\.nuget\\packages\\sixlabors.imagesharp\\1.0.0\\sixlabors.imagesharp.1.0.0.nupkg.sha512",
+    "C:\\Users\\deepe\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.7.1\\system.runtime.compilerservices.unsafe.4.7.1.nupkg.sha512",
+    "C:\\Users\\deepe\\.nuget\\packages\\telerik.documents.core.trial\\2021.1.322\\telerik.documents.core.trial.2021.1.322.nupkg.sha512",
+    "C:\\Users\\deepe\\.nuget\\packages\\telerik.documents.fixed.trial\\2021.1.322\\telerik.documents.fixed.trial.2021.1.322.nupkg.sha512",
+    "C:\\Users\\deepe\\.nuget\\packages\\telerik.documents.flow.formatproviders.pdf.trial\\2021.1.322\\telerik.documents.flow.formatproviders.pdf.trial.2021.1.322.nupkg.sha512",
+    "C:\\Users\\deepe\\.nuget\\packages\\telerik.documents.flow.trial\\2021.1.322\\telerik.documents.flow.trial.2021.1.322.nupkg.sha512",
+    "C:\\Users\\deepe\\.nuget\\packages\\telerik.documents.imageutils.trial\\2021.1.322\\telerik.documents.imageutils.trial.2021.1.322.nupkg.sha512",
+    "C:\\Users\\deepe\\.nuget\\packages\\telerik.zip.trial\\2021.1.322\\telerik.zip.trial.2021.1.322.nupkg.sha512",
+    "C:\\Users\\deepe\\.nuget\\packages\\tifflibrary\\0.5.252\\tifflibrary.0.5.252.nupkg.sha512",
+    "C:\\Users\\deepe\\.nuget\\packages\\tifflibrary.imagesharpadapter\\0.5.252\\tifflibrary.imagesharpadapter.0.5.252.nupkg.sha512"
+  ],
+  "logs": []
+}

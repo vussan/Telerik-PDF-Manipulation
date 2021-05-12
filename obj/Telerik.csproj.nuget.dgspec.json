@@ -1,0 +1,89 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\deepe\\Desktop\\PdfEditor\\Telerik\\Telerik.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\deepe\\Desktop\\PdfEditor\\Telerik\\Telerik.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\deepe\\Desktop\\PdfEditor\\Telerik\\Telerik.csproj",
+        "projectName": "Telerik",
+        "projectPath": "C:\\Users\\deepe\\Desktop\\PdfEditor\\Telerik\\Telerik.csproj",
+        "packagesPath": "C:\\Users\\deepe\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\deepe\\Desktop\\PdfEditor\\Telerik\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\deepe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.telerik.com/nuget": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Magick.NET-Q16-AnyCPU": {
+              "target": "Package",
+              "version": "[7.24.0, )"
+            },
+            "Telerik.Documents.Core.Trial": {
+              "target": "Package",
+              "version": "[2021.1.322, )"
+            },
+            "Telerik.Documents.Fixed.Trial": {
+              "target": "Package",
+              "version": "[2021.1.322, )"
+            },
+            "Telerik.Documents.Flow.FormatProviders.Pdf.Trial": {
+              "target": "Package",
+              "version": "[2021.1.322, )"
+            },
+            "Telerik.Documents.Flow.Trial": {
+              "target": "Package",
+              "version": "[2021.1.322, )"
+            },
+            "Telerik.Documents.ImageUtils.Trial": {
+              "target": "Package",
+              "version": "[2021.1.322, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
